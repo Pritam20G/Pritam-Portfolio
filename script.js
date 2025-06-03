@@ -21,3 +21,8 @@ navLinks.forEach(link => {
         })
     })
 });
+
+function openMenu(){
+    menu = document.getElementById('navmenu');
+    menu.classList.toggle("rightshw");
+}
